@@ -10,9 +10,6 @@ vLLM
 agent
 mcp
 
-胖东来
-于东来
-
 DeepSeek
 梁文锋
 
