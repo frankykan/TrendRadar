@@ -1,0 +1,154 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-22 15:15:58</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">iphone ipad mac ios</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%9B%9DiPhoneAir%E6%9A%82%E5%81%9C%E7%94%9F%E4%BA%A7%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D0%26lcate%3D5001%26cate%3D5001%26c_type%3D31%26stream_entry_id%3D31%26band_rank%3D2%26q%3D%2523%25E6%259B%259DiPhoneAir%25E6%259A%2582%25E5%2581%259C%25E7%2594%259F%25E4%25BA%25A7%2523%26dgr%3D0%26pos%3D1%26realpos%3D2%26filter_type%3Drealtimehot%26display_time%3D1761117249%26pre_seqid%3D17611172491570113780631" target="_blank" class="news-link">曝iPhoneAir暂停生产</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时15分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=MacBook%20Pro%20M5%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95" target="_blank" class="news-link">MacBook Pro M5性能测试</a> [8] <font color='grey'>- 15时15分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPad%20Pro%20M5%E4%BD%93%E9%AA%8C" target="_blank" class="news-link">iPad Pro M5体验</a> [23] <font color='grey'>- 15时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2176114" target="_blank" class="news-link">GDP增长5.5%！人工智能、半导体等产业快速增长 上海经济实现奋力一跳</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时15分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757538" target="_blank" class="news-link">创业板涨超3%，AI算力硬件爆发，“易中天”大涨，恒科指涨逾1%，苹果概念股走强，国债上涨，商品分化</a> [8] <font color='grey'>- 15时15分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31818525" target="_blank" class="news-link">马上评｜“用AI流浪汉骗老公”，家庭恶作剧逾越了边界</a> [11] <font color='grey'>- 15时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">宇树 王兴兴</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%9B%B4%E5%90%8D%EF%BC%9A%E5%88%A0%E5%8E%BB%E2%80%9C%E6%9D%AD%E5%B7%9E%E2%80%9D%E4%B8%A4%E5%AD%97" target="_blank" class="news-link">宇树科技更名：删去“杭州”两字</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时15分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7563538459655651354/" target="_blank" class="news-link">宇树科技更名：删去“杭州”两字</a> [20] <font color='grey'>- 15时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%8E%9F%E7%A5%9E%E6%96%B0%E7%89%88%E6%9C%AC%E5%AE%9E%E5%86%B5" target="_blank" class="news-link">原神新版本实况</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时15分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345980&amp;amp;topic_name=%E5%8E%9F%E7%A5%9E6.2%E5%A4%A7%E7%88%86%E6%96%99%21%E7%AD%96%E5%88%92%E7%94%BB%E9%A5%BC%E7%8B%82%E5%96%82%E8%8D%AF" target="_blank" class="news-link">原神6.2大爆料!策划画饼狂喂药</a> [24] <font color='grey'>- 15时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">机器人</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2176420" target="_blank" class="news-link">又一人形机器人企业推进IPO！乐聚机器人完成15亿元Pre-IPO轮融资</a> [6] <font color='grey'>- 15时15分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9B%BD%E4%BA%A7%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E8%B7%B3%E8%BF%88%E5%85%8B%E5%B0%94%E6%9D%B0%E5%85%8B%E9%80%8A%E8%88%9E%E8%B9%88" target="_blank" class="news-link">国产机器人大跳迈克尔杰克逊舞蹈</a> [27] <font color='grey'>- 15时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7563689745155719204/" target="_blank" class="news-link">王文涛就安世半导体等问题与荷方通话</a> [23] <font color='grey'>- 15时15分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7563889396034833963/" target="_blank" class="news-link">半导体产业的中美荷三国博弈</a> [26] <font color='grey'>- 15时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1963713236953203912" target="_blank" class="news-link">六大 AI 模型上演投资对决，DeepSeek 稳居第一，如何评价各模型的表现？</a> [9] <font color='grey'>- 15时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E9%B8%BF%E8%92%996%E5%8F%91%E5%B8%83%E4%BC%9A&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26lcate%3D5001%26cate%3D5001%26c_type%3D31%26stream_entry_id%3D31%26band_rank%3D25%26q%3D%25E9%25B8%25BF%25E8%2592%25996%25E5%258F%2591%25E5%25B8%2583%25E4%25BC%259A%26dgr%3D0%26pos%3D25%26realpos%3D25%26filter_type%3Drealtimehot%26display_time%3D1761117249%26pre_seqid%3D17611172491570113780631" target="_blank" class="news-link">鸿蒙6发布会</a> [25] <font color='grey'>- 15时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">京东 刘强东</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23iPhoneAir%E4%BA%AC%E4%B8%9C%E6%96%B0%E5%93%81%E9%A6%96%E5%8F%91%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26lcate%3D5001%26cate%3D5001%26c_type%3D31%26stream_entry_id%3D31%26band_rank%3D16%26q%3D%2523iPhoneAir%25E4%25BA%25AC%25E4%25B8%259C%25E6%2596%25B0%25E5%2593%2581%25E9%25A6%2596%25E5%258F%2591%2523%26dgr%3D0%26pos%3D16%26realpos%3D16%26filter_type%3Drealtimehot%26display_time%3D1761117249%26pre_seqid%3D17611172491570113780631" target="_blank" class="news-link">iPhoneAir京东新品首发</a> [16] <font color='grey'>- 15时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757591" target="_blank" class="news-link">OpenAI推出AI浏览器ChatGPT Atlas，直接与谷歌竞争</a> [6] <font color='grey'>- 15时15分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>weibo (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E9%B8%BF%E8%92%996%E5%8F%91%E5%B8%83%E4%BC%9A&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26lcate%3D5001%26cate%3D5001%26c_type%3D31%26stream_entry_id%3D31%26band_rank%3D25%26q%3D%25E9%25B8%25BF%25E8%2592%25996%25E5%258F%2591%25E5%25B8%2583%25E4%25BC%259A%26dgr%3D0%26pos%3D25%26realpos%3D25%26filter_type%3Drealtimehot%26display_time%3D1761117249%26pre_seqid%3D17611172491570113780631" target="_blank" class="news-link">鸿蒙6发布会</a> [25]</li></ul></div>
+        </body>
+        </html>
+        
